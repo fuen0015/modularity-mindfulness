@@ -1,0 +1,56 @@
+html {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.jp {
+  font-family: "Noto Sans Japanese", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.eng {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.nav a {
+  display: block;
+  color: #005e76;
+  text-decoration: none;
+  border-bottom: 2px solid #8bc9d9;
+}
+
+.nav a:hover {
+  color: #000;
+}
+
+.btn {
+  background-color: transparent;
+  border-style: none;
+  color: #8bc9d9;
+  text-decoration: none;
+}
+
+.btn-ghost {
+  color: #005e76;
+  border: 2px solid #8bc9d9;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.btn-ghost:hover {
+  color: #005e76;
+  background-color: #8bc9d9;
+  border-color: #0084a6;
+  border-width: 2px;
+}
+
+hr {
+  border-color: #e2e2e2;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .wrapper {
+    max-width: 38em;
+  }
+
+}
